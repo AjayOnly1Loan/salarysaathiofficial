@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import WarningIcon from '@mui/icons-material/Warning'; // Import Warning icon
-import AXIS from '../assets/image/icici-icon.png'; 
+import Yesbank from '../assets/image/YESBANK.NS_BIG.svg'; 
 import backgroundImg from '../assets/image/Contact Us Frame 1.png'; // Import the background image
 import repayaImage from '../assets/image/Repay Now qua.webp';
 import { Grid, Box, Typography, Button, Divider } from '@mui/material';
@@ -150,13 +150,11 @@ const RepayLoan = () => {
                     }}
                   >
                     <img 
-                      src={AXIS} 
+                      src={Yesbank} 
                       alt="AXIS Bank" 
-                      style={{ width: '50px', marginBottom: '8px' }} 
+                      style={{ width: '100px', marginBottom: '8px' }} 
                     />
-                    <Typography variant="h6" sx={{ color: 'white' }}>
-                      ICICI Bank
-                    </Typography>
+                    
                   </Box>
 
                   {/* Vertical Divider */}
@@ -168,7 +166,7 @@ const RepayLoan = () => {
                     <Box component="span" sx={{ fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
                       Bank Name
                     </Box>
-                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}> ICICI Bank Limited</Typography>
+                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}> YES BANK</Typography>
                   </Typography>
 
                   <Typography variant="body1" sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
@@ -176,7 +174,7 @@ const RepayLoan = () => {
                      Name
                     </Box>
                     <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>
-                    SHIVJI FINANCE AND INVESTMENTS PVT LTD
+                    RICHMAN FINCAP LIMITED
                     </Typography>
                   </Typography>
 
@@ -184,22 +182,22 @@ const RepayLoan = () => {
                     <Box component="span" sx={{ fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
                       Account Number
                     </Box>
-                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>401705000896</Typography>
+                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>023763300012311</Typography>
                   </Typography>
 
                   <Typography variant="body1" sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
                     <Box component="span" sx={{ fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
                       IFSC Code
                     </Box>
-                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>ICIC0004017</Typography>
+                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>YESBANK</Typography>
                   </Typography>
 
                   <Typography variant="body1" sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
-                    <Box component="span" sx={{ fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
+                    <Box component="span" sx={{mt:-3, fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
                       Branch Name
                     </Box>
                     <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>
-                      3027,East Patel Nagar, New Delhi 110018, India
+                      YES BANK Ltd.,GROUND FLOOR,E-34,NARAINA VIHAR, NEW DELHI 110028
                     </Typography>
                   </Typography>
 
@@ -210,7 +208,6 @@ const RepayLoan = () => {
                     <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>Current Account</Typography>
                   </Typography>
                 </Box>
-
                 </Box>
               </Grid>
             </Grid>

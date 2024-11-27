@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
         {
             title: "Privacy Policy",
             content: [
-                "At SalarySaathi, a lending platform under SHIVJI FINANCE & INVESTMENTS PVT LTD , we prioritize your privacy. This policy explains how we collect, use, and protect your data. By using SalarySaathi.com, you agree to the collection and use of your information as outlined in this Privacy Policy."
+                "At SalarySaathi, a lending platform under RICHMAN FINCAP LIMITED , we prioritize your privacy. This policy explains how we collect, use, and protect your data. By using SalarySaathi.com, you agree to the collection and use of your information as outlined in this Privacy Policy."
             ]
         },
         {
@@ -36,7 +36,7 @@ const PrivacyPolicy = () => {
                 "Your information may be shared with:",
                 "• Authorized Third Parties: We work with Credit Bureaus, Payment Gateways, and Verification Agencies to process and verify your information.",
                 "• Legal Authorities: We may disclose your information as required by law, such as for regulatory reporting or fraud investigations.",
-                "• Parent Company: We may share data with our parent company, SHIVJI FINANCE & INVESTMENTS PVT LTD , for loan processing."
+                "• Parent Company: We may share data with our parent company, RICHMAN FINCAP LIMITED , for loan processing."
             ]
         },
         {

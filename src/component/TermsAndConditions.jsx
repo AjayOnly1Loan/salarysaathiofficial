@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
                                 Welcome to SalarySaathi By accessing and using this website or applying for any of our loan products, you agree to comply with the terms and conditions outlined here.
                             </Typography>
                             <Typography>
-                                These Terms and Conditions constitute a legal agreement between you and SHIVJI FINANCE & INVESTMENTS PVT LTD
+                                These Terms and Conditions constitute a legal agreement between you and RICHMAN FINCAP LIMITED
  (an NBFC registered with RBI for lending purposes), which governs your use of our website and services. Please read these terms carefully. If you do not agree with these terms, you should refrain from using this website or applying for loans through SalarySaathi
                             </Typography>
                         </Box>
@@ -53,7 +53,7 @@ const TermsAndConditions = () => {
                                 1. Introduction
                             </Typography>
                             <Typography>
-                                SalarySaathi provides personal loans to salaried individuals under the regulatory oversight of                     SHIVJI FINANCE & INVESTMENTS PVT LTD
+                                SalarySaathi provides personal loans to salaried individuals under the regulatory oversight of                     RICHMAN FINCAP LIMITED
 , an NBFC registered with the RBI. Our primary goal is to provide seamless, easy, and transparent financial solutions to help individuals manage their personal finances.
                             </Typography>
                         </Box>
@@ -69,7 +69,7 @@ const TermsAndConditions = () => {
                             <ul>
                                 <li>Be at least 21 years old and not older than 60 at the time of loan application.</li>
                                 <li>Be a salaried individual with steady income from a recognized organization.</li>
-                                <li>Meet the minimum monthly income criteria defined by     SHIVJI FINANCE & INVESTMENTS PVT LTD
+                                <li>Meet the minimum monthly income criteria defined by     RICHMAN FINCAP LIMITED
 Limited.</li>
                                 <li>Be a resident of India with a satisfactory credit score and financial history.</li>
                             </ul>
@@ -81,7 +81,7 @@ Limited.</li>
                                 3. Loan Application Process
                             </Typography>
                             <Typography>
-                                The loan application process at SalarySaathi includes registration, filling out the application form, document submission, and credit assessment. Approval of loans is at the sole discretion of     SHIVJI FINANCE & INVESTMENTS PVT LTD.
+                                The loan application process at SalarySaathi includes registration, filling out the application form, document submission, and credit assessment. Approval of loans is at the sole discretion of     RICHMAN FINCAP LIMITED.
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
@@ -191,7 +191,7 @@ Limited.</li>
                                 14. Limitation of Liability
                             </Typography>
                             <Typography>
-                                                    SHIVJI FINANCE & INVESTMENTS PVT LTD
+                                                    RICHMAN FINCAP LIMITED
  shall not be liable for any loss, damage, or inconvenience arising out of the use of this website or services, except as expressly stated in the loan agreement.
                             </Typography>
                         </Box>

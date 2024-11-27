@@ -70,8 +70,8 @@ const FAQs = () => {
         {
             id: 'faq1',
             question: '1. What is SalarySaathi.com?',
-            answer: `SalarySaathi.com is an online platform offering quick and hassle-free personal loans to salaried individuals. As part of                     SHIVJI FINANCE & INVESTMENTS (P).LTD
-Limited (An RBI registered NBFC), we aim to provide accessible financial solutions to meet your personal needs, whether it's for emergencies, home improvement, or celebrations.`,
+            answer: `SalarySaathi.com is an online platform offering quick and hassle-free personal loans to salaried individuals. As part of RICHMAN FINCAP LIMITED
+ (An RBI registered NBFC), we aim to provide accessible financial solutions to meet your personal needs, whether it's for emergencies, home improvement, or celebrations.`,
         },
         {
             id: 'faq2',
@@ -139,7 +139,7 @@ Limited (An RBI registered NBFC), we aim to provide accessible financial solutio
         {
             id: 'faq13',
             question: '13. How can I contact customer support for further assistance?',
-            answer: `You can reach our customer support team through our website's contact form, by email at support@SalarySaathi.com, or by calling our helpline during business hours. We're here to assist you with any questions or concerns.`,
+            answer: `You can reach our customer support team through our website's contact form, by email at support@salarysaathi.com, or by calling our helpline during business hours. We're here to assist you with any questions or concerns.`,
         },
     ].map((faq, index) => (
                             <Accordion

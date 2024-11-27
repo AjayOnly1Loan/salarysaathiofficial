@@ -104,7 +104,7 @@ const ApplyNow = () => {
   if (name === 'dob') {
     const birthDate = new Date(value); // Convert input to a date
     const today = new Date();
-    const age = today.getFullYear() - birthDate.getFullYear();
+    let age = today.getFullYear() - birthDate.getFullYear();
     const monthDiff = today.getMonth() - birthDate.getMonth();
   
     // Adjust age if the current month and day are before the birth month and day

@@ -186,8 +186,8 @@ const AboutUs = () => {
             textAlign: 'center',
           }}
         >
-          Welcome to SalarySaathi, your trusted partner in personal finance solutions. As a premier digital lending platform under SHIVJI FINANCE AND INVESTMENTS PVT LTD
-Limited, we specialize in providing fast, convenient, and short-term unsecured personal loans to salaried individuals across India. Our mission is to empower our customers with access to credit, simplifying the loan process through innovative technology and tailored solutions that meet your unique financial needs.
+          Welcome to SalarySaathi, your trusted partner in personal finance solutions. As a premier digital lending platform under RICHMAN FINCAP LIMITED,
+          we specialize in providing fast, convenient, and short-term unsecured personal loans to salaried individuals across India. Our mission is to empower our customers with access to credit, simplifying the loan process through innovative technology and tailored solutions that meet your unique financial needs.
         </Typography>
         
         {/* Divider with Document Icon */}
@@ -395,8 +395,8 @@ Limited, we specialize in providing fast, convenient, and short-term unsecured p
                           textAlign: 'left',
                         }}
                       >
-                        Our mission is to make personal loans quick, simple, and accessible for salaried individuals. We believe in financial empowerment and are committed to providing easy and affordable access to credit. Through our partnership with                     SHIVJI FINANCE & INVESTMENTS (P).LTD
-Limited, an RBI-registered NBFC (Non-Banking Financial Company), we offer loans that are secure, transparent, and tailored to meet the needs of today’s modern consumer.
+                        Our mission is to make personal loans quick, simple, and accessible for salaried individuals. We believe in financial empowerment and are committed to providing easy and affordable access to credit. Through our partnership with RICHMAN FINCAP LIMITED, 
+                        an RBI-registered NBFC (Non-Banking Financial Company), we offer loans that are secure, transparent, and tailored to meet the needs of today’s modern consumer.
                       </Typography>
                     </Grid>
                   </Grid>
