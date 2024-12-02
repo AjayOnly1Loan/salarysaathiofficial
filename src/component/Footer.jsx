@@ -35,11 +35,11 @@ const Footer = () => {
 
           <Grid item xs={12} md={3} container justifyContent={{ xs: 'center', md: 'flex-end' }}>
             <Box mt={1} display="flex" gap={1} justifyContent="center">
-              <Link href="https://www.facebook.com/profile.php?id=61567546377871" sx={{ ...iconStyle, backgroundColor: '#4267B2' }}><Facebook /></Link>
-              <Link href="https://x.com/speedo_loan" sx={{ ...iconStyle, backgroundColor: '#1DA1F2' }}><Twitter /></Link>
-              <Link href="https://www.linkedin.com/company/speedo-loan/about/?viewAsMember=true" target="_blank" sx={{ ...iconStyle, backgroundColor: '#0077B5' }}><LinkedIn /></Link>
-              <Link href="https://www.instagram.com/speedo.loan/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#C13584' }}><Instagram /></Link>
-              <Link href="https://www.youtube.com/@SpeedLoans" target="_blank" sx={{ ...iconStyle, backgroundColor: '#FF0000' }}><YouTube /></Link>
+              <Link href="/" sx={{ ...iconStyle, backgroundColor: '#4267B2' }}><Facebook /></Link>
+              <Link href="/" sx={{ ...iconStyle, backgroundColor: '#1DA1F2' }}><Twitter /></Link>
+              <Link href="/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#0077B5' }}><LinkedIn /></Link>
+              <Link href="/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#C13584' }}><Instagram /></Link>
+              <Link href="/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#FF0000' }}><YouTube /></Link>
             </Box>
           </Grid>
         </Grid>

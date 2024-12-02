@@ -69,8 +69,7 @@ const TermsAndConditions = () => {
                             <ul>
                                 <li>Be at least 21 years old and not older than 60 at the time of loan application.</li>
                                 <li>Be a salaried individual with steady income from a recognized organization.</li>
-                                <li>Meet the minimum monthly income criteria defined by     RICHMAN FINCAP LIMITED
-Limited.</li>
+                                <li>Meet the minimum monthly income criteria defined by     RICHMAN FINCAP LIMITED.</li>
                                 <li>Be a resident of India with a satisfactory credit score and financial history.</li>
                             </ul>
                         </Box>

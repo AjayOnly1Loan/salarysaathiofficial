@@ -282,21 +282,23 @@ const ContactUs = () => {
               </Box>
             </Grid>
 
-              <Grid item xs={12} sm={6} sx={{ marginTop:"27px", justifyContent: 'center', alignItems: 'center' }}>
-              <Box
-                component="iframe"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0199544976637!2d-122.41941548468256!3d37.77492977975888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085814d1c8b0fd5%3A0x0!2sSan%20Francisco!5e0!3m2!1sen!2sus!4v161234567890!5m2!1sen!2sus" // Replace with your own Google Maps embed link
-                allowFullScreen
-                loading="lazy"
-                sx={{
-                  width: '90%',
-                  maxWidth: '500px',
-                  height: { xs: '50vh', md: '99vh' },
-                  border: 0,
-                  borderRadius: '40px',
-                }}
-              />
-            </Grid>
+            <Grid item xs={12} sm={6} sx={{ marginTop: "27px", justifyContent: 'center', alignItems: 'center' }}>
+  <Box
+    component="iframe"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224304.2556588405!2d77.06826828769549!3d28.613939492829425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d31ab397b93%3A0x0!2sNew%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1631888981286!5m2!1sen!2sus"
+    width="600"
+    height="450"
+    style={{ border: 0, borderRadius: '40px' }}
+    allowfullscreen=""
+    loading="lazy"
+    sx={{
+      width: '90%',
+      maxWidth: '500px',
+      height: { xs: '50vh', md: '99vh' },
+      borderRadius: '40px',
+    }}
+  />
+</Grid>
 
             </Grid>
 
