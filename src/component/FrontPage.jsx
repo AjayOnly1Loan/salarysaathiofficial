@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import backgroundImage from '../assets/image/Frame 514.png';
+import backgroundImage from '../assets/image/Frame 536.png';
 
 const FrontPage = () => {
   const theme = useTheme();
@@ -45,7 +45,7 @@ const FrontPage = () => {
     
   }}
 >  {/* Centered Content */}
-      <Box sx={{ mt: -75, [theme.breakpoints.down('sm')]: { mt: -64 } ,
+      <Box sx={{ mt: -90, [theme.breakpoints.down('sm')]: { mt: -64 } ,
       
        '@media (width: 414px) and (height: 896px)': {
         mt: -75, // Specific height for iPhone XR
@@ -72,7 +72,7 @@ const FrontPage = () => {
             },
           }}
         >
-          Quick urgent assured loan in just
+          Quickest Easiest & Effortless loan 
         </Typography>
         <Typography
           variant="h2"
@@ -91,7 +91,7 @@ const FrontPage = () => {
             },
           }}
         >
-          5 minutes
+        in just 5 minutes
         </Typography>
       </Box>
 

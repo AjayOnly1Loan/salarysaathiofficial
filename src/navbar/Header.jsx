@@ -9,16 +9,18 @@ import {
   Box,
   Typography,
   Button,
+  useMediaQuery,
 } from '@mui/material';
+
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import PaymentIcon from '@mui/icons-material/Payment';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
+import CalculateIcon from '@mui/icons-material/Calculate'; // Import CalculateIcon
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
-import logo from '../assets/image/Salari Saathi logo.png'; // Adjust the path based on your structure
-import { useMediaQuery } from '@mui/material';
 import { Facebook, Twitter, Instagram, LinkedIn } from '@mui/icons-material';
+import logo from '../assets/image/Salari Saathi logo.png'; // Adjust the path as needed
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -109,6 +111,19 @@ const Header = () => {
             </Box>
           </MenuItem>
 
+          {/* Add Calculator Tab */}
+          <MenuItem
+  id="calculator-button"
+  component="a"
+  href="#calculator-grid-container" // Direct scroll to the ID
+  onClick={handleMenuClose} // Menu close karna na bhulein
+>
+  <Box sx={{ color: '#0b2747', display: 'flex', alignItems: 'center', width: '100%' }}>
+    <CalculateIcon sx={{ mr: 1 }} /> LOAN CALCULATOR
+  </Box>
+</MenuItem>
+
+
           {/* Divider Line */}
           <Box sx={{ width: '100%', borderTop: '1px solid black', my: 2 }} />
 
@@ -116,7 +131,12 @@ const Header = () => {
           <Box sx={{ p: 2 }}>
             <Button
               variant="contained"
-              sx={{ backgroundColor: '#333', color: 'white', borderRadius: '5px', '&:hover': { backgroundColor: '#555' } }}
+              sx={{
+                backgroundColor: '#333',
+                color: 'white',
+                borderRadius: '5px',
+                '&:hover': { backgroundColor: '#555' },
+              }}
               fullWidth
               onClick={() => scrollToTop('/apply-now')}
             >
