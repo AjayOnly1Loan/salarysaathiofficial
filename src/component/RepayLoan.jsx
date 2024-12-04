@@ -232,7 +232,7 @@ const RepayLoan = () => {
                     <Box component="span" sx={{ fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
                       IFSC Code
                     </Box>
-                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>YESBANK</Typography>
+                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>YESB0000237</Typography>
                   </Typography>
 
                   <Typography variant="body1" sx={{ mb: 2, display: 'flex', alignItems: 'center' }}>
@@ -248,7 +248,7 @@ const RepayLoan = () => {
                     <Box component="span" sx={{ fontWeight: 'bold', minWidth: { xs: '100px', sm: '130px' } }}>
                       Account Type
                     </Box>
-                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>Current Account</Typography>
+                    <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>CURRENT ACCOUNT</Typography>
                   </Typography>
                 </Box>
                 </Box>
