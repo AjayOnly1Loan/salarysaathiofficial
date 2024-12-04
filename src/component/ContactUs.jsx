@@ -3,8 +3,11 @@ import { TextField, Button, Grid, Typography, Box } from '@mui/material';
 import Swal from 'sweetalert2'; // Import SweetAlert
 // import './ContactUs.css'; 
 import aboutImage from '../assets/image/contact us qua.webp';
-import leftVideo from '../assets/videos/Bold Sale Brand Website Homepage Banner.mp4';
 import backgroundImg from '../assets/image/Frame 446.png'; // Import the background image
+import IconImage from '../assets/image/addre.jpg'; // Adjust the path as needed
+import ContactIcon from '../assets/image/contact.png'; // Replace with your image path
+import EmailIcon from '../assets/image/greivence.png'; // Replace with your icon image path
+import OfficerIcon from '../assets/image/collect.png'; // Replace with your icon image path
 
 const ContactUs = () => {
  
@@ -82,82 +85,126 @@ const ContactUs = () => {
             Do You Still Have <br /> Some Queries?
           </Typography>
 
-          <Grid container spacing={2} justifyContent="center" mt={6}>
-            {/* Email Box */}
-            <Grid item xs={12} sm={4}>
-              <Box
-                sx={{
-                  padding: '20px',
-                  width: '290px',
-                  height: '300px',
-                  background: '#A77AE2',
-                  color: '#fff',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  borderRadius: '12px',
-                  textAlign: 'center',
-                  mx: { xs: 'auto', md: '180px' },
-                  mb: { xs: 2, sm: 0 },
-                }}
-              >
-                <i className="fas fa-envelope" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
-                <Typography sx={{ fontSize: '24px', fontWeight: '500' }}>Email</Typography>
-                <p>info@salarysaathi.com</p>
-              </Box>
-            </Grid>
+     <Grid container spacing={2} justifyContent="center" mt={6}>
+  {[
+    {
+      title: "Office Address",
+      bgColor: "#AFD97E",
+      icon: IconImage,
+      content: [
+        {
+          subheading: "Registered Office Address",
+          text: "Office No. 311, Suryakiran Building, K.G. Marg, Cannaught Place, New Delhi, 110001",
+        },
+        {
+          subheading: "Corporate Office Address",
+          text: "Office No. 311, Suryakiran Building, K.G. Marg, Cannaught Place, New Delhi, 110001",
+        },
+      ],
+    },
+    {
+      title: "Contact Us",
+      bgColor: "#007BBA",
+      icon: ContactIcon,
+      content: [
+        { text: "+91 9999999341", iconClass: "fas fa-phone-alt" },
+        { text: "info@salarysaathi.com", iconClass: "fas fa-envelope" },
+      ],
+    },
+    {
+      title: "Grievance Redressal Officer",
+      bgColor: "#A77AE2",
+      icon: EmailIcon,
+      content: [
+        { text: "AMAN KUMAR", iconClass: "fas fa-user-circle" },
+        { text: "+91 9999999341", iconClass: "fas fa-phone-alt" },
+        { text: "info@salarysaathi.com", iconClass: "fas fa-envelope" },
+      ],
+    },
+    {
+      title: "Collection Officer",
+      bgColor: "#e01dd7",
+      icon: OfficerIcon,
+      content: [
+        { text: "LUCKY MUDGAL", iconClass: "fas fa-user-circle" },
+        { text: "+91-9355926174", iconClass: "fas fa-phone-alt" },
+        { text: "info@salarysaathi.com", iconClass: "fas fa-envelope" },
+      ],
+    },
+  ].map((box, index) => (
+    <Grid key={index} item xs={12} sm={3}>
+      <Box
+        sx={{
+          padding: "20px",
+          background: box.bgColor,
+          color: "#fff",
+          borderRadius: "12px",
+          textAlign: "center",
+          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+          height: "100%",
+          marginTop: index !== 0 ? "-3px" : "0px", // Negative margin for overlap
+        }}
+      >
+        {/* Icon with Zoom Animation */}
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginBottom: "16px",
+            animation: "zoom 1.5s infinite",
+            "@keyframes zoom": {
+              "0%, 100%": { transform: "scale(1)" },
+              "50%": { transform: "scale(1.2)" },
+            },
+          }}
+        >
+          <img
+            src={box.icon}
+            alt={`${box.title} Icon`}
+            style={{ width: "50px", height: "50px" }}
+          />
+        </Box>
 
-            {/* Phone Box */}
-            <Grid item xs={12} sm={4}>
-              <Box
-                sx={{
-                  padding: '20px',
-                  width: '290px',
-                  height: '300px',
-                  background: '#EB685A',
-                  color: '#fff',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  borderRadius: '12px',
-                  textAlign: 'center',
-                  mx: { xs: 'auto', md: '50px' },
-                  mb: { xs: 2, sm: 0 },
-                }}
-              >
-                <i className="fas fa-phone-alt" style={{ fontSize: '24px', marginBottom: '8px', transform: 'rotate(90deg)' }}></i>
-                <Typography sx={{ fontSize: '24px', fontWeight: '500' }}>Phone</Typography>
-                <p>+91 9999999341</p>
-              </Box>
-            </Grid>
+        {/* Title */}
+        <Typography
+          sx={{
+            fontSize: "22px",
+            fontWeight: "bold",
+            textTransform: "uppercase",
+            marginBottom: "16px",
+          }}
+        >
+          {box.title}
+        </Typography>
 
-            {/* Address Box */}
-            <Grid item xs={12} sm={4}>
-              <Box
-                sx={{
-                  padding: '20px',
-                  width: '290px',
-                  height: '300px',
-                  background: '#AFD97E',
-                  color: '#fff',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  borderRadius: '12px',
-                  textAlign: 'center',
-                  mx: { xs: 'auto', md: '-80px' },
-                }}
-              >
-                <i className="fas fa-map-marker-alt" style={{ fontSize: '24px', marginBottom: '8px' }}></i>
-                <Typography sx={{ fontSize: '24px', fontWeight: '500' }}>Address</Typography>
-                <p>S-370, Panchsheel Park,
-                New Delhi 110017, India</p>
-              </Box>
-            </Grid>
-          </Grid>
+        {/* Content */}
+        {box.content.map((item, i) => (
+          <Typography
+            key={i}
+            sx={{
+              fontSize: "14px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginBottom: "8px",
+            }}
+          >
+            {item.iconClass && (
+              <i
+                className={item.iconClass}
+                style={{ marginRight: "8px", color: "#FFD700" }}
+              ></i>
+            )}
+            {item.text}
+          </Typography>
+        ))}
+      </Box>
+    </Grid>
+  ))}
+</Grid>
+
+
         </Box>
 
         
@@ -287,14 +334,14 @@ const ContactUs = () => {
     component="iframe"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224304.2556588405!2d77.06826828769549!3d28.613939492829425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d31ab397b93%3A0x0!2sNew%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sus!4v1631888981286!5m2!1sen!2sus"
     width="600"
-    height="450"
+    height="400"
     style={{ border: 0, borderRadius: '40px' }}
     allowfullscreen=""
     loading="lazy"
     sx={{
       width: '90%',
       maxWidth: '500px',
-      height: { xs: '50vh', md: '99vh' },
+      height: { xs: '50vh', md: '97vh' },
       borderRadius: '40px',
     }}
   />

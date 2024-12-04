@@ -77,7 +77,7 @@ const Footer = () => {
                 textAlign: { xs: 'center', md: 'left' }, // Center heading on small screens
               }}
             >
-              Fast Link
+              Fast Links
             </Typography>
             <Box 
               component="ul"

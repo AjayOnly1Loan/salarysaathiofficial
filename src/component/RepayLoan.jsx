@@ -49,6 +49,49 @@ const RepayLoan = () => {
 
       </Box>
 
+            {/* Marquee Section */}
+            <Box 
+        sx={{ 
+          overflow: 'hidden', 
+          whiteSpace: 'nowrap', 
+          width: '100%', 
+          backgroundColor: '#f9f9f9', 
+          border:'none',
+          py: 1, 
+          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)' 
+        }}
+      >
+        <Typography
+          variant="body1"
+          sx={{
+            display: 'inline-block',
+            animation: 'scroll-text 20s linear infinite',
+            fontSize: { xs: '14px', sm: '18px' },
+            color: '#B22222',
+            fontWeight: 'bold',
+            textAlign: 'center',
+          }}
+        >
+          Beaware of fraud! Always use our secure Repayment Website Link for loan payments. SalarySaathi is not responsible for payments made to other accounts.
+        </Typography>
+
+        {/* Keyframe animation using Material-UI */}
+        <style>
+          {`
+            @keyframes scroll-text {
+              from {
+                transform: translateX(100%);
+              }
+              to {
+                transform: translateX(-100%);
+              }
+            }
+          `}
+        </style>
+      </Box>
+
+
+
       {/* Warning Message */}
       <Box 
         sx={{ 
