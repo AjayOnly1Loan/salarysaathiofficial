@@ -96,10 +96,7 @@ const ContactUs = () => {
           subheading: "Registered Office Address",
           text: "Office No. 311, Suryakiran Building, K.G. Marg, Cannaught Place, New Delhi, 110001",
         },
-        {
-          subheading: "Corporate Office Address",
-          text: "Office No. 311, Suryakiran Building, K.G. Marg, Cannaught Place, New Delhi, 110001",
-        },
+       
       ],
     },
     {

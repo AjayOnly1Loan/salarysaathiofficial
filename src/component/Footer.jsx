@@ -149,7 +149,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href="contact-us" sx={{ ...linkStyle, alignItems: 'center' }}>
-                    <LocationOn sx={{ mr: 1 }} /> S-370, Panchsheel Park,<br /> New Delhi 110017, India
+                    <LocationOn sx={{ mr: 1 }} /> Office No. 311, Suryakiran Building, K.G. Marg, Cannaught Place, New Delhi, 110001
                   </Link>
                 </li>
               </ul>

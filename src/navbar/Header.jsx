@@ -112,12 +112,8 @@ const Header = () => {
           </MenuItem>
 
           {/* Add Calculator Tab */}
-          <MenuItem
-  id="calculator-button"
-  component="a"
-  href="#calculator-grid-container" // Direct scroll to the ID
-  onClick={handleMenuClose} // Menu close karna na bhulein
->
+          <MenuItem onClick={() => scrollToTop('/calculator')}>
+
   <Box sx={{ color: '#0b2747', display: 'flex', alignItems: 'center', width: '100%' }}>
     <CalculateIcon sx={{ mr: 1 }} /> LOAN CALCULATOR
   </Box>
