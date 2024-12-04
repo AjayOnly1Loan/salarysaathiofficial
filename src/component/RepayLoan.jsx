@@ -72,7 +72,7 @@ const RepayLoan = () => {
             textAlign: 'center',
           }}
         >
-          Beaware of fraud! Always use our secure Repayment Website Link for loan payments. SalarySaathi is not responsible for payments made to other accounts.
+          "Beaware of fraud! Always use our secure Repayment Website Link for loan payments. SalarySaathi is not responsible for payments made to other accounts."
         </Typography>
 
         {/* Keyframe animation using Material-UI */}
