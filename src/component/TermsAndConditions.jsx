@@ -43,7 +43,7 @@ const TermsAndConditions = () => {
                             </Typography>
                             <Typography>
                                 These Terms and Conditions constitute a legal agreement between you and RICHMAN FINCAP LIMITED
- (an NBFC registered with RBI for lending purposes), which governs your use of our website and services. Please read these terms carefully. If you do not agree with these terms, you should refrain from using this website or applying for loans through SalarySaathi
+ (an NBFC registered with RBI for lending purposes), which governs your use of our website and services. Please read these terms carefully. If you do not agree with these terms, you should refrain from using this website or applying for loans through SalarySaathi.
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
@@ -53,9 +53,7 @@ const TermsAndConditions = () => {
                                 1. Introduction
                             </Typography>
                             <Typography>
-                                SalarySaathi provides personal loans to salaried individuals under the regulatory oversight of                     RICHMAN FINCAP LIMITED
-, an NBFC registered with the RBI. Our primary goal is to provide seamless, easy, and transparent financial solutions to help individuals manage their personal finances.
-                            </Typography>
+                            SalarySaathi provides personal loans to salaried individuals under the regulatory guidelines of RICHMAN FINCAP LIMITED , an NBFC registered with the RBI. Our primary goal is to provide hassle-free, easy, and transparent financial solutions to help individuals manage their personal finances. </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
 
@@ -68,7 +66,7 @@ const TermsAndConditions = () => {
                             </Typography>
                             <ul>
                                 <li>Be at least 21 years old and not older than 60 at the time of loan application.</li>
-                                <li>Be a salaried individual with steady income from a recognized organization.</li>
+                                <li>Be a salaried individual with a stable source of income from a recognized organization.</li>
                                 <li>Meet the minimum monthly income criteria defined by     RICHMAN FINCAP LIMITED.</li>
                                 <li>Be a resident of India with a satisfactory credit score and financial history.</li>
                             </ul>
@@ -120,7 +118,8 @@ const TermsAndConditions = () => {
                                 7. Loan Repayment
                             </Typography>
                             <Typography>
-                                Repayment must be made as per the terms set forth in your loan agreement. Loan repayments will be deducted automatically via NACH mandate or through other digital methods such as UPI, Payment Gateway, etc. Early repayment is allowed; however, prepayment penalties may apply.
+                            Upon approval of your loan application and completion of required formalities, the loan amount will be credited directly to your bank account. The timing at which the amount will be disbursed may vary depending on internal processes, but SalarySaathi strives to ensure quick and efficient transfer of funds, just with a fingertap.
+________________________________________
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
@@ -140,7 +139,8 @@ const TermsAndConditions = () => {
                                 9. Cancellation of Loan
                             </Typography>
                             <Typography>
-                                You may cancel your loan application at any stage before disbursement. After disbursement, cancellation is not possible. However, prepayment is allowed subject to terms outlined in the agreement.
+                            You may cancel your loan application at any stage before disbursement. After disbursement, cancellation is not possible. However, prepayment is allowed subject to the terms outlined in the agreement.
+________________________________________
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
@@ -170,7 +170,8 @@ const TermsAndConditions = () => {
                                 12. Amendments to Terms
                             </Typography>
                             <Typography>
-                                We reserve the right to modify or update these terms and conditions at any time. The updated terms will be posted on the website, and it is your responsibility to stay informed.
+                            We reserve the right to modify or update these terms and conditions at any point of time. The updated terms will be posted on the website, and it is your responsibility to stay informed at all given times.
+________________________________________
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />

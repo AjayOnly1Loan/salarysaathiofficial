@@ -82,7 +82,8 @@ const LoanCalculate = () => {
                         Short on cash before Salary day?
                         </Typography>
                         <Typography variant="h6" color="inherit" sx={{ mt: 1 }}>
-                        Turn to SalarySaathi! We’ll provide you with the support you need and get funds in your account in just 5 minutes.                        </Typography>
+                        Turn to SalarySaathi! We’ll provide you with the support you need and get funds instantly credited in your account in just 5 minutes.                    
+                              </Typography>
                     </Paper>
 
                     <Paper
@@ -118,9 +119,10 @@ const LoanCalculate = () => {
                         }}
                     >
                         <Typography variant="h5" fontWeight={550} component="strong" color="inherit" sx={{ mt: 4 }}>
-                        Facing mid-month money troubles?                        </Typography>
+                        Facing mid-month money crisis?                 
+                                   </Typography>
                         <Typography variant="h6" color="inherit" sx={{ mt: 1 }}>
-                        At SalarySaathi, we offer quick loans tailored to your needs. Apply now, and receive funds instantly.                        </Typography>
+                        At SalarySaathi, we offer quick loans customized as per your needs. Apply now, and receive funds instantly.                                 </Typography>
                     </Paper>
                 </Grid>
 
@@ -159,10 +161,9 @@ const LoanCalculate = () => {
                         }}
                     >
                         <Typography variant="h5" fontWeight={550} component="strong" color="inherit" sx={{ mt: 4 }}>
-                        Salary not enough to cover unexpected expenses?
-                        </Typography>
+                        Salary not enough to cover your unexpected expenses?                        </Typography>
                         <Typography variant="h6" color="inherit" sx={{ mt: 1 }}>
-                        We’ve got your back! Get a hassle-free loan with SalarySaathi in minutes—because we believe in helping you stay on track.                        </Typography>
+                        Don’t worry, we’ve got your back! Get a hassle-free personal loan with SalarySaathi in a few minutes—because we believe in helping you stay on track.                          </Typography>
                     </Paper>
 
                     <Paper
@@ -199,11 +200,10 @@ const LoanCalculate = () => {
                     >
                         <Typography variant="h5" fontWeight={550} component="strong" color="inherit" sx={{ mt: 4 }}>
 
-                        Need a financial lift?
-
+                        Need a financial uplift?
                         </Typography>
                         <Typography variant="h6" color="inherit" sx={{ mt: 1 }}>
-                        With SalarySaathi, your loan is just 5 minutes away. Fast, easy, and reliable solutions for when you need it most.                        </Typography>
+                        With SalarySaathi’s quick services, your loan is just 5 minutes away. Fast, easy, and reliable solutions are at your dispersal, when you need it the most.                                      </Typography>
                     </Paper>
                 </Grid>
             </Grid>

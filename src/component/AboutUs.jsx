@@ -13,27 +13,6 @@ import videoSrc from '../assets/videos/how it works salary sathi final.mp4'; // 
 
 
 
-const techSteps = [
-  {
-    number: "01",
-    title: "Quick Credit Assessments",
-    description: "Through seamless integration with credit bureaus and bank accounts, our system evaluates your credit profile instantly, enabling quick loan approvals.",
-  },
-  {
-    number: "02",
-    title: "User-Friendly Interface",
-    description: "Our website and mobile app are designed with the user in mind, ensuring that the loan application, approval, and disbursement process is easy and convenient.",
-  },
-  {
-    number: "03",
-    title: "Real-Time Tracking",
-    description: "Once your loan application is submitted, you can track its status in real-time via our website or mobile app, making the process transparent and efficient.",
-  },
-];
-
-
-
-
 const AboutUs = () => {
   const videoRef = useRef(null);
 
@@ -186,9 +165,7 @@ const AboutUs = () => {
             textAlign: 'center',
           }}
         >
-          Welcome to SalarySaathi, your trusted partner in personal finance solutions. As a premier digital lending platform under RICHMAN FINCAP LIMITED,
-          we specialize in providing fast, convenient, and short-term unsecured personal loans to salaried individuals across India. Our mission is to empower our customers with access to credit, simplifying the loan process through innovative technology and tailored solutions that meet your unique financial needs.
-        </Typography>
+          Welcome to SalarySaathi, your trusted solution in providing personal finance loans. As a premier digital lending platform under RICHMAN FINCAP LIMITED, we specialize in providing fast, convenient, and short-term unsecured personal loans to salaried individuals across India. Our main goal is to make our customers feel financially empowered with full access to credit, simplifying the loan process through innovative use of technology and personalized solutions that meet their unique financial needs. </Typography>
         
         {/* Divider with Document Icon */}
         <Box sx={{ display: 'flex', alignItems: 'center', marginY: 2 }}>
@@ -209,8 +186,7 @@ const AboutUs = () => {
             marginTop: 2,
           }}
         >
-          At SalarySaathi, we understand that life can be unpredictable whether it’s medical emergencies, wedding expenses, home improvements, we’re here to ensure that financial hurdles don’t hold you back. With our seamless, fully digital platform, you can apply for a loan in minutes, track your application status in real-time, and receive funds directly into your bank account.
-        </Typography>
+          At SalarySaathi, we understand that life can be really unpredictable whether it’s the arrival of emergency situations, wedding expenses, home improvisations. We're here to make sure that financial problems don’t hold you back. With our easy-to-use fully digital platform, you can apply for a loan in a few minutes, track your application status in real-time, and receive funds instantly into your bank account.   </Typography>
       </Box>
  
       {/* mission & vission */}
@@ -318,8 +294,7 @@ const AboutUs = () => {
                           textAlign: 'left',
                         }}
                       >
-                        Our vision at SalarySaathi is to redefine how personal loans are accessed by salaried professionals in India. We aim to create a transparent, customer-centric lending ecosystem that provides access to credit when it’s needed the most. By harnessing cutting-edge technology and leveraging our expertise in financial services, we strive to build a future where financial inclusion is a reality for all, regardless of their income or background.
-                      </Typography>
+                Our vision at SalarySaathi is to redefine how personal loans are accessed by salaried professionals in India. We aim to create a transparent, customer-centric lending platform that provides access to credit when it’s needed the most. By making use of the latest technology and leveraging our expertise in financial services, we strive to build a future where financial inclusion is a reality for all, irrespective of their income sources or background.                      </Typography>
                     </Grid>
 
                     {/* Right Side: Vision Image */}
@@ -395,9 +370,8 @@ const AboutUs = () => {
                           textAlign: 'left',
                         }}
                       >
-                        Our mission is to make personal loans quick, simple, and accessible for salaried individuals. We believe in financial empowerment and are committed to providing easy and affordable access to credit. Through our partnership with RICHMAN FINCAP LIMITED, 
-                        an RBI-registered NBFC (Non-Banking Financial Company), we offer loans that are secure, transparent, and tailored to meet the needs of today’s modern consumer.
-                      </Typography>
+                       Our mission is to make personal loans quicker, simpler, and easily accessible for salaried individuals. We believe in giving everyone the feel of being financially secured and are committed to providing easy and affordable access to credit. Through our partnership with RICHMAN FINCAP LIMITED, an RBI-registered NBFC (Non-Banking Financial Company), we offer loans that are secure, transparent, and designed as per the needs of today’s modern-day consumer.
+                        </Typography>
                     </Grid>
                   </Grid>
                 </Box>
@@ -459,8 +433,7 @@ const AboutUs = () => {
                           margin: { xs: 0, md: '0 auto' },
                       }}
                   >
-                      SalarySaathi is powered by a state-of-the-art digital platform that simplifies every step of the loan process. We use advanced algorithms to assess your creditworthiness quickly and accurately, ensuring that you get the best possible loan offers.
-                  </Typography>
+SalarySaathi is powered by a modern digital platform that simplifies every step of the loan process. We use advanced algorithms to assess your creditworthiness as quickly as possible and with more accuracy, ensuring that you get the best possible loan offers.                  </Typography>
 
                   {/* Top line above Paper */}
 
@@ -545,7 +518,7 @@ const AboutUs = () => {
                     textShadow: '1px 1px 2px rgba(0, 0, 0, 0.3)',
                   }}
                 >
-                  How it Makes the Process Easy to Get a Loan
+              How Easy is to Get a Loan?
                 </Typography>
 
                 <Box 
@@ -593,7 +566,7 @@ const techItems = [
   },
   {
       title: ' Secure Transactions',
-      description: 'We prioritize your security by using encrypted transactions, ensuring your sensitive data remains safe at all times.'
+      description: 'We prioritize your security by using encrypted transactions, ensuring your sensitive data remains safe at all given times.'
   },
 ];
 

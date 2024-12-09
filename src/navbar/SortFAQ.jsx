@@ -190,16 +190,16 @@ const SortFAQ = () => {
 // FAQ items data
 const faqItems = [
     {
-        question: 'What is SalarySaathi and how can it help me?',
-        answer: 'SalarySaathi is your digital lending buddy! We are here to offer fast, hassle-free personal loans, especially for salaried individuals who have struggled with traditional bank loans. Whether it’s an emergency, wedding, or consolidating debt, we provide financial solutions tailored to your needs.'
+        question: '1)	What does SalarySaathi do and how can it help me?',
+        answer: 'SalarySaathi is your digital lending buddy, who is a one-stop solution for your financial assistance! We are here to offer fast, hassle-free personal loans, especially for salaried individuals who have struggled with traditional bank loans. Whether it’s a medical emergency, wedding setup, or consolidating debt, we provide financial solutions customized as per your needs.'
     },
     {
         question: 'How is SalarySaathi different from a traditional bank?',
-        answer: 'Unlike traditional banks that may reject loan applications based on strict criteria, SalarySaathi is part of Naman Finlease Private Limited, an RBI-registered NBFC. We specialize in providing loans to people who may not meet traditional lending standards. We offer quick approvals, minimal paperwork, and fast fund transfers, making borrowing easy and stress-free.'
+        answer: 'Unlike traditional banks that may reject loan applications based on strict criteria, SalarySaathi is a part of RICHMAN FINCAP LIMITED, which is an RBI-registered NBFC. We specialize in providing loans to salaried class who may not meet traditional lending standards. We also offer quick approvals, minimal paperwork, and prompt fund transfers, making the borrowing process easy and stress-free.'
     },
     {
         question: 'How do I apply for a loan with SalarySaathi?',
-        answer: 'It’s super simple! Just follow these 3 steps:\n• Fill in your basic details\n• Upload your KYC documents (PAN, Aadhaar, salary slips, and bank statements)\n• Get instant credit directly into your bank account once approved!'
+        answer: 'It’s super simple! Just follow these 3 steps: • Fill in your basic details • Upload your KYC documents (PAN, Aadhaar, salary slips, and bank statements) • Get your funds instantly credited once they are approved!'
     },
     {
         question: 'What loan amount can I borrow?',

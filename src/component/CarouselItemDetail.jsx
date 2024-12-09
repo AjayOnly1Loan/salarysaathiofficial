@@ -16,7 +16,7 @@ const cardDetails = [
   {
     imgUrl: image1,
     title: "Quick Approval",
-    description: `We know your time matters! With our friendly financial technology, we’ll check your documents and approve your loan in just a minutes. `,
+    description: `We know your time is precious! So with our user-friendly finance technology, we’ll check your documents and approve your loan in just a couple of minutes.`,
   },
   {
     imgUrl: image2,
@@ -31,17 +31,17 @@ const cardDetails = [
   {
     imgUrl: image4,
     title: "Easy Documentation",
-    description: `Say goodbye to the hassle of paperwork and long trips to the bank. `,
+    description: `Say goodbye to the hassles of paperwork and long queues to the bank.`,
   },
   {
     imgUrl: image5,
-    title: "Fast Fund Transfer",
-    description: ` No waiting—just quick financial relief thanks to our advanced technology!`,
+    title: "Instant Fund Transfer",
+    description: `No waiting, no standing in lines waiting for your turn - just quick financial relief!`,
   },
   {
     imgUrl: image6,
     title: "Secure Process",
-    description: `Your information is in good hands! Our dedicated teams work diligently at every stage to ensure a safe and transparent experience. `,
+    description: `Your information is absolutely in safe and secure hands! Our dedicated teams work diligently at every stage to ensure a safe and transparent experience for all.`,
   },
 ];
 
@@ -181,9 +181,7 @@ export default function AutoplayCarousel() {
             textAlign: "center",
           }}
         >
-          Is your salary running low before the month ends?
-          Don’t stress – SalarySaathi.com is here to help! 
-          Get a quick loan disbursed directly into your account in just 5 minutes.
+          Is your salary running low before the month ends? Don’t stress over it – SalarySaathi is here to help! Get a quick loan disbursed directly into your account in just 5 minutes.
         </Typography>
 
       <Box

@@ -3,9 +3,11 @@ import { Box, Typography } from '@mui/material';
 import backgroundImage from '../assets/image/Frame 46.png'; // Adjust the path accordingly
 
 const WhoWeAre = () => {
-  const content = `Welcome to SalarySaathi – where we redefine lending!
-  We’re passionate innovators committed to making borrowing faster and easier.
-  With us, you can get a loan disbursed in your account in just  5 minutes.`;
+  const content = `Welcome to SalarySaathi – where we redefine the process of lending! 
+  We’re those passionate innovators who are committed to making borrowing quicker and easier. 
+  With us, you can get a loan disbursed in your account in just 5 minutes.
+
+`;
 
   const words = content.split('\n'); // Split the content into words
   const [isVisible, setIsVisible] = useState(false);

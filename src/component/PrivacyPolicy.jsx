@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
         {
             title: "Privacy Policy",
             content: [
-                "At SalarySaathi, a lending platform under RICHMAN FINCAP LIMITED , we prioritize your privacy. This policy explains how we collect, use, and protect your data. By using SalarySaathi.com, you agree to the collection and use of your information as outlined in this Privacy Policy."
+                "At SalarySaathi, a lending platform under RICHMAN FINCAP LIMITED , we prioritize your privacy. This policy explains how we collect, use, and protect your data. By using SalarySaathi, you agree to the collection and use of your information as outlined in this Privacy Policy."
             ]
         },
         {
@@ -35,32 +35,32 @@ const PrivacyPolicy = () => {
             content: [
                 "Your information may be shared with:",
                 "• Authorized Third Parties: We work with Credit Bureaus, Payment Gateways, and Verification Agencies to process and verify your information.",
-                "• Legal Authorities: We may disclose your information as required by law, such as for regulatory reporting or fraud investigations.",
-                "• Parent Company: We may share data with our parent company, RICHMAN FINCAP LIMITED , for loan processing."
+                "• Legal Authorities: We may disclose your information as required by the law, such as for regulatory reporting or fraud investigations.",
+                "• Parent Company: We may share your data with our parent company, RICHMAN FINCAP LIMITED , for loan processing."
             ]
         },
         {
             title: "4. Data Security",
             content: [
-                "We employ encryption, secure servers, and multi-factor authentication to safeguard your data. However, no system is 100% secure, and we encourage users to exercise caution."
+                "We employ encryption, secure servers, and multi-factor authentication to safeguard your data. However, no system is 100% secure, and we encourage users to proceed with caution."
             ]
         },
         {
             title: "5. Cookies and Tracking",
             content: [
-                "We use cookies and tracking technologies to enhance your browsing experience. You can control cookies through browser settings."
+                "We use cookies and tracking technologies to enhance your browsing experience. You can control cookies through your browser settings."
             ]
         },
         {
             title: "6. Your Rights",
             content: [
-                "You have the right to access, correct, delete, or request portability of your data. You can also opt out of marketing communications at any time."
+                "You have the right to access, correct, delete, or request portability of your data. You can also opt out of marketing communications at any point of time."
             ]
         },
         {
             title: "7. Retention of Information",
             content: [
-                "We retain your information as long as necessary for business or legal reasons, and securely delete it when no longer needed."
+                "We retain your information as long as it is necessary for business or legal reasons, and securely delete it when it is no longer needed."
             ]
         },
         {
@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
         {
             title: "9. Children’s Privacy",
             content: [
-                "We do not knowingly collect data from children under 18. If we find any, we will delete it."
+                "We do not knowingly collect data from children under the age of 18. If we find any, we will delete it."
             ]
         },
         {
@@ -85,9 +85,9 @@ const PrivacyPolicy = () => {
             title: "11. Contact Us",
             content: [
                 "If you have any questions, please contact us at:",
-                "• Email: info@SalarySaathi.com",
+                "• Email: info@salarysaathi.com",
                 "• Phone: +91 9999999341",
-                "• Address: S-370, Panchsheel Park,New Delhi 110017, India",
+                "• Address: Office No. 311, Suryakiran Building, K.G. Marg, Cannaught Place, New Delhi, 110001",
                
             ]
         }

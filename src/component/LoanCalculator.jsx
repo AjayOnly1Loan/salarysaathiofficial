@@ -107,7 +107,7 @@ const LoanCalculator = () => {
                         Personal Loan Calculator
                     </Typography>
                     <Typography  align="center" gutterBottom sx={{ color: 'black',fontSize:{xs: '16px', sm: '22px' } }}>
-                    "Easily estimate your loan details with our handy calculator. See how different loan amounts, tenures, and interest rates impact your total payable amount. Find out exactly what you'll owe and plan your finances confidently."                    </Typography>
+                    Now you can quickly have an estimate about your loan details with our handy calculator. See how different loan amounts, tenures, and interest rates impact your total payable amount. Find out exactly what you'll owe and plan your finances accordingly.                         </Typography>
 
                     <Grid container spacing={4}  id="calculator-grid-container" justifyContent="center">
                     <Grid item xs={12} md={6}>
@@ -332,7 +332,7 @@ const LoanCalculator = () => {
                                 <Typography variant="h4" gutterBottom style={{fontWeight:'bold', color: 'black',fontSize: { xs: '1.8rem', sm: '2.5rem', md: '3rem' }}}> 
                                     Clarity in Lending                    
                                 </Typography>
-                                <Typography variant="h6">Detailed information to help you understand your financial commitment.</Typography>
+                                <Typography variant="h6">Detailed insights to help you understand your financial commitment.</Typography>
                                 <Typography style={{ marginTop: '50px',fontSize:'25px',font:"bold" }}>
                                     You have to pay
                                 </Typography>

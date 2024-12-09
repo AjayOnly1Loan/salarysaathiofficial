@@ -72,7 +72,7 @@ const FrontPage = () => {
             },
           }}
         >
-          Quickest, Easiest & Effortless loan 
+       Quickest, Easiest & Effortless Loan
         </Typography>
         <Typography
           variant="h2"

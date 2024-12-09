@@ -14,27 +14,27 @@ import {
 const cardDetails = [
   {
     icon: <CheckCircleOutline fontSize="large" />,
-    title: "Fast Approval",
-    description: `Our entirely digital process ensures\nthat you can apply for a loan quickly\nand efficiently, without lengthy paperwork.`,
+    title: "Immediate Approval",
+    description: `Our digital process ensures that you can apply for a loan quickly and efficiently, without lengthy paperwork.`,
   },
   {
     icon: <Group fontSize="large" />,
-    title: "Customer-Centric",
-    description: `We focus on providing personalized\nloan solutions tailored to meet\nyour unique financial needs.`,
+    title: "Customer-Centric Focus",
+    description: `We put our focus mainly on providing personal finance solutions that are customized to meet their unique financial needs.`,
   },
   {
     icon: <Security fontSize="large" />,
-    title: "Secure Transactions",
+    title: "Safe & Secure Transactions",
     description: `We prioritize your data privacy,\nemploying top-notch security measures\nto safeguard your personal information.`,
   },
   {
     icon: <LiveHelp fontSize="large" />,
     title: "24/7 Support",
-    description: `Our dedicated customer support team\nis available around the clock\nto assist you with your loan inquiries.`,
+    description: `Our dedicated customer support is available around the clock to assist you with your loan inquiries.`,
   },
   {
     icon: <Payment fontSize="large" />,
-    title: "Flexible Options",
+    title: "Flexible Repay Options",
     description: `We provide flexible repayment options\nthat fit within your budget,\nensuring that you have the best experience possible.`,
   },
   {

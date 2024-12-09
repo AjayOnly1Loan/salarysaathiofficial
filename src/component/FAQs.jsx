@@ -69,13 +69,12 @@ const FAQs = () => {
                  {[
         {
             id: 'faq1',
-            question: '1. What is SalarySaathi.com?',
-            answer: `SalarySaathi.com is an online platform offering quick and hassle-free personal loans to salaried individuals. As part of RICHMAN FINCAP LIMITED
- (An RBI registered NBFC), we aim to provide accessible financial solutions to meet your personal needs, whether it's for emergencies, home improvement, or celebrations.`,
+            question: '1.What is SalarySaathi all about?',
+            answer: `SalarySaathi is an online platform that offers quick and hassle-free personal loans to salaried individuals. As a part of RICHMAN FINCAP LIMITED (an RBI registered NBFC), we aim to provide financial solutions to meet your personal needs, whether it's for emergency situations, home repairs or improvements, or even celebrations of your loved ones.`,
         },
         {
             id: 'faq2',
-            question: '2. Who is eligible to apply for a personal loan from SalarySaathi.com?',
+            question: '2. Who is eligible to apply for a personal loan from SalarySaathi?',
             answer: `To be eligible for a personal loan, you must be:
             • A salaried individual
             • Aged between 21 and 60 years
@@ -86,35 +85,35 @@ const FAQs = () => {
             id: 'faq3',
             question: '3. What documents are required to apply for a personal loan?',
             answer: `You will need to submit the following documents:
-            • Proof of identity (Aadhaar, PAN card, passport, etc.)
+            • Proof of identity (Aadhaar, PAN, passport, etc.)
             • Proof of address (utility bills, Aadhaar, etc.)
             • Salary slips for the last three months
             • Bank statements for the last six months`,
         },
         {
             id: 'faq4',
-            question: '4. How much can I borrow from SalarySaathi.com?',
-            answer: `SalarySaathi.com offers personal loans ranging from ₹5,000 to ₹1,00,000 depending on your salary, repayment capacity, and credit score.`,
+            question: '4. How much can I borrow from SalarySaathi?',
+            answer: `SalarySaathi offers personal loans ranging from ₹5,000 to ₹1,00,000 depending on your salary, repayment capacity, and credit score.`,
         },
         {
             id: 'faq5',
-            question: '5. What is the interest rate on personal loans at SalarySaathi.com?',
-            answer: `The interest rate varies based on your credit profile, loan amount, and tenure. Typically, our rates are competitive and designed to be affordable for salaried individuals. Contact us to get a personalized quote.`,
+            question: '5. What is the interest rate on personal loans at SalarySaathi?',
+            answer: `The interest rate varies based on your credit profile, loan amount, and tenure. Though our rates are competitive and are specifically designed to be affordable for salaried individuals, one may contact us to get a personalized quoted price.`,
         },
         {
             id: 'faq6',
             question: '6. How long does it take to get the loan approved and disbursed?',
-            answer: `Once you submit your application and documents, our team processes your request quickly. Loan approval usually takes a few minutes, and funds are disbursed within 30 minutes upon approval.`,
+            answer: `Once you submit your application and documents, our team processes your request promptly. Loan approval usually takes a couple of minutes, and funds are disbursed within 30 minutes once they are approved.`,
         },
         {
             id: 'faq7',
             question: '7. Can I repay my loan early?',
-            answer: `Yes, SalarySaathi.com allows early repayment of loans. Please review your loan agreement or contact us for details.`,
+            answer: `Yes, SalarySaathi allows early repayment of loans. Please review your loan agreement or contact us for more details.`,
         },
         {
             id: 'faq8',
-            question: '8. How does SalarySaathi.com assess my creditworthiness?',
-            answer: `We assess your loan eligibility based on factors such as your monthly income, credit score, job stability, and repayment history. A good credit score increases your chances of getting approved with a favorable interest rate.`,
+            question: '8. How does SalarySaathi assess my creditworthiness?',
+            answer: `We assess your loan eligibility based on certain factors such as your monthly income, credit score, job stability, and repayment history. A good credit score increases your chances of getting approved with a favorable interest rate.`,
         },
         {
             id: 'faq9',
@@ -123,13 +122,13 @@ const FAQs = () => {
         },
         {
             id: 'faq10',
-            question: '10. How do I repay my loan to SalarySaathi.com?',
+            question: '10. How do I repay my loan to SalarySaathi?',
             answer: `You can repay your loan through various payment options such as NACH (National Automated Clearing House), direct debit, or online payments via our website.`,
         },
         {
             id: 'faq11',
-            question: '11. Is my personal and financial information safe with SalarySaathi.com?',
-            answer: `Absolutely. SalarySaathi.com uses advanced security measures, including encryption and secure servers, to ensure your personal and financial data is protected. We adhere to all data privacy regulations and take confidentiality seriously.`,
+            question: '11. Is my personal and financial information safe with SalarySaathi?',
+            answer: `Absolutely! SalarySaathi uses advanced security measures, including encryption and secure servers, to ensure your personal and financial data is protected. We adhere to all data privacy regulations and take confidentiality concerns seriously.`,
         },
         {
             id: 'faq12',
@@ -139,7 +138,7 @@ const FAQs = () => {
         {
             id: 'faq13',
             question: '13. How can I contact customer support for further assistance?',
-            answer: `You can reach our customer support team through our website's contact form, by email at support@salarysaathi.com, or by calling our helpline during business hours. We're here to assist you with any questions or concerns.`,
+            answer: `You can reach our customer support through our website's contact form, by email at support@salarysaathi.com, or by calling our helpline numbers during business hours. We're here to assist you with any questions or concerns.`,
         },
     ].map((faq, index) => (
                             <Accordion
