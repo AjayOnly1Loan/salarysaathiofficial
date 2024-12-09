@@ -72,7 +72,7 @@ const RepayLoan = () => {
             textAlign: 'center',
           }}
         >
-          "Beaware of fraud! Always use our secure Repayment Website Link for loan payments. SalarySaathi is not responsible for payments made to other accounts."
+          "Beware of fraud! Always use our secure Repayment Website Link for loan payments. SalarySaathi is not responsible for payments made to other accounts."
         </Typography>
 
         {/* Keyframe animation using Material-UI */}
@@ -240,7 +240,7 @@ const RepayLoan = () => {
                       Branch Name
                     </Box>
                     <Typography sx={{ marginLeft: { xs: 2, md: 3 } }}>
-                      YES BANK Ltd.,GROUND FLOOR,E-34,NARAINA VIHAR, NEW DELHI 110028
+                      YES BANK LTD.,GROUND FLOOR,E-34,NARAINA VIHAR, NEW DELHI 110028
                     </Typography>
                   </Typography>
 

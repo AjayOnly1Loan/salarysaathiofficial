@@ -119,7 +119,6 @@ const TermsAndConditions = () => {
                             </Typography>
                             <Typography>
                             Upon approval of your loan application and completion of required formalities, the loan amount will be credited directly to your bank account. The timing at which the amount will be disbursed may vary depending on internal processes, but SalarySaathi strives to ensure quick and efficient transfer of funds, just with a fingertap.
-________________________________________
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
@@ -140,7 +139,7 @@ ________________________________________
                             </Typography>
                             <Typography>
                             You may cancel your loan application at any stage before disbursement. After disbursement, cancellation is not possible. However, prepayment is allowed subject to the terms outlined in the agreement.
-________________________________________
+
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />
@@ -171,7 +170,7 @@ ________________________________________
                             </Typography>
                             <Typography>
                             We reserve the right to modify or update these terms and conditions at any point of time. The updated terms will be posted on the website, and it is your responsibility to stay informed at all given times.
-________________________________________
+
                             </Typography>
                         </Box>
                         <Divider sx={{ my: 2 }} />

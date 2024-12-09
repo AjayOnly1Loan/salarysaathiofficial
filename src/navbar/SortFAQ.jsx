@@ -190,7 +190,7 @@ const SortFAQ = () => {
 // FAQ items data
 const faqItems = [
     {
-        question: '1)	What does SalarySaathi do and how can it help me?',
+        question: 'What does SalarySaathi do and how can it help me?',
         answer: 'SalarySaathi is your digital lending buddy, who is a one-stop solution for your financial assistance! We are here to offer fast, hassle-free personal loans, especially for salaried individuals who have struggled with traditional bank loans. Whether it’s a medical emergency, wedding setup, or consolidating debt, we provide financial solutions customized as per your needs.'
     },
     {
@@ -207,7 +207,7 @@ const faqItems = [
     },
     {
         question: 'How do I repay the loan?',
-        answer: 'Repaying your loan is super easy! You can choose between Easy Pay or a Bank Transfer. We offer flexible repayment options so you can pay on time without any stress.'
+        answer: 'Repaying your loan is super easy! You can choose between UPI or a Bank Transfer. We offer flexible repayment options so you can pay on time without any stress.'
     },
 ];
 
