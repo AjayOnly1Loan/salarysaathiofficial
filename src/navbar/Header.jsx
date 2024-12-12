@@ -21,6 +21,7 @@ import CalculateIcon from '@mui/icons-material/Calculate'; // Import CalculateIc
 import { Menu as MenuIcon, Close as CloseIcon } from '@mui/icons-material';
 import { Facebook, Twitter, Instagram, LinkedIn } from '@mui/icons-material';
 import logo from '../assets/image/Salari Saathi logo.png'; // Adjust the path as needed
+import XLogo from '../assets/image/logo.webp'; // Adjust the path according to your project structure
 
 const Header = () => {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -142,16 +143,25 @@ const Header = () => {
 
           {/* Social Media Icons */}
           <Box sx={{ display: 'flex', justifyContent: 'center', gap: 1, mt: 2 }}>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/profile.php?id=61570006966590" target="_blank" rel="noopener noreferrer">
               <Facebook sx={{ color: '#0b2747', cursor: 'pointer' }} />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-              <Twitter sx={{ color: '#0b2747', cursor: 'pointer' }} />
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/info826568" target="_blank" rel="noopener noreferrer">
+            <img
+              src={XLogo} // Using the imported X logo
+              alt="X Logo"
+              style={{
+                width: '20px', // Adjust size as needed
+                height: '20px', // Adjust size as needed
+                cursor: 'pointer',
+              }}
+            />
+          </a>
+
+            <a href="https://www.instagram.com/qualoan/" target="_blank" rel="noopener noreferrer">
               <Instagram sx={{ color: '#0b2747', cursor: 'pointer' }} />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/qualoan/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
               <LinkedIn sx={{ color: '#0b2747', cursor: 'pointer' }} />
             </a>
           </Box>
