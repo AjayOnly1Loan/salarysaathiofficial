@@ -35,13 +35,13 @@ const Footer = () => {
 
           <Grid item xs={12} md={3} container justifyContent={{ xs: 'center', md: 'flex-end' }}>
             <Box mt={1} display="flex" gap={1} justifyContent="center">
-              <Link href="/" sx={{ ...iconStyle, backgroundColor: '#4267B2' }}><Facebook /></Link>
-              <Link href="/" sx={{ ...iconStyle, backgroundColor: 'white' }}>
+              <Link href="https://www.facebook.com/profile.php?id=61569833756263" sx={{ ...iconStyle, backgroundColor: '#4267B2' }}><Facebook /></Link>
+              <Link href="https://x.com/salarysathi" sx={{ ...iconStyle, backgroundColor: 'white' }}>
               <img src={X} alt="Logo" style={{ width: '100%', height: 'auto',background:'black' }} />
             </Link>
-              <Link href="/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#0077B5' }}><LinkedIn /></Link>
-              <Link href="/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#C13584' }}><Instagram /></Link>
-              <Link href="/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#FF0000' }}><YouTube /></Link>
+              <Link href="https://www.linkedin.com/company/105757921/admin/dashboard/" target="_blank" sx={{ ...iconStyle, backgroundColor: '#0077B5' }}><LinkedIn /></Link>
+              <Link href="https://www.instagram.com/salarysaathi/?next=%2Fspeedo.loan%2F" target="_blank" sx={{ ...iconStyle, backgroundColor: '#C13584' }}><Instagram /></Link>
+              <Link href="https://www.youtube.com/@salarysaathi" target="_blank" sx={{ ...iconStyle, backgroundColor: '#FF0000' }}><YouTube /></Link>
             </Box>
           </Grid>
         </Grid>
