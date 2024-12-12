@@ -45,13 +45,13 @@ const FrontPage = () => {
     
   }}
 >  {/* Centered Content */}
-      <Box sx={{ mt: -75, [theme.breakpoints.down('sm')]: { mt: -64 } ,
+      <Box sx={{ mt: -75, [theme.breakpoints.down('sm')]: { mt: -60 } ,
       
        '@media (width: 414px) and (height: 896px)': {
-        mt: -75, // Specific height for iPhone XR
+        mt: -70, // Specific height for iPhone XR
       }, 
     '@media (width: 1024px) and (height: 1366px)': {
-      mt: -130, // Adjusted height for 1024x1336 screens
+      mt: -120, // Adjusted height for 1024x1336 screens
     },}
       
     
