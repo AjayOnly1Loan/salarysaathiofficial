@@ -39,13 +39,13 @@ const FrontPage = () => {
       height: '90vh', // Adjusted height for 1024x1336 screens
     },
     '@media (min-width: 768px) and (max-width: 820px) and (min-height: 1024px) and (max-height: 1180px)': {
-      height:' 70vh', /* Adjusted height for specific screen sizes */
+      height:' 80vh', /* Adjusted height for specific screen sizes */
     }
     
     
   }}
 >  {/* Centered Content */}
-      <Box sx={{ mt: -90, [theme.breakpoints.down('sm')]: { mt: -64 } ,
+      <Box sx={{ mt: -75, [theme.breakpoints.down('sm')]: { mt: -64 } ,
       
        '@media (width: 414px) and (height: 896px)': {
         mt: -75, // Specific height for iPhone XR
