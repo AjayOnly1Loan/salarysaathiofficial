@@ -22,7 +22,7 @@ const FrontPage = () => {
     color: 'white',
     textAlign: 'center',
     padding: theme.spacing(2),
-    height: {xs:'100vh',md:'110vh',sm:'118vh',lg:'140vh'}, // Same height across all screens
+    height: {xs:'100vh',md:'110vh',sm:'125vh',lg:'140vh'}, // Same height across all screens
     '@media (width: 414px) and (height: 896px)': {
       height: '85vh', // Specific height for iPhone XR
     },
@@ -51,7 +51,7 @@ const FrontPage = () => {
         mt: -70, // Specific height for iPhone XR
       }, 
     '@media (width: 1024px) and (height: 1366px)': {
-      mt: -120, // Adjusted height for 1024x1336 screens
+      mt: -110, // Adjusted height for 1024x1336 screens
     },}
       
     
