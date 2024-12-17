@@ -160,40 +160,53 @@ const ApplyNow = () => {
 
   const handlePincodeChange = async (e) => {
     const value = e.target.value;
-    setFormValues({ ...formValues, pinCode: value });
-    console.log(value);
-    
-    // Fetch city and state based on pincode
-    if (value.length === 6) {
-      try {
-        const response = await fetch(`https://api.postalpincode.in/pincode/${value}`);
-        const data = await response.json();
-
-        if (data[0].Status === "Success") {
-          const { Block, State } = data[0].PostOffice[0];
-          setCity(Block);
-          setState(State);
-          console.log(city, state);
-          
-        } else {
-          // Handle invalid pin code case
-          setCity('');
-          setState('');
+  
+    // Only allow numeric input and ensure the pincode has no more than 6 digits
+    if (/^\d{0,6}$/.test(value)) {
+      setFormValues({ ...formValues, pinCode: value });
+  
+      // If the pincode has exactly 6 digits, fetch city and state
+      if (value.length === 6) {
+        try {
+          const response = await fetch(`https://api.postalpincode.in/pincode/${value}`);
+          const data = await response.json();
+  
+          if (data[0].Status === "Success") {
+            const { Block, State } = data[0].PostOffice[0];
+            setCity(Block);
+            setState(State);
+            console.log('City:', Block, 'State:', State);
+          } else {
+            // Handle invalid pin code case
+            setCity('');
+            setState('');
+            Swal.fire({
+              icon: 'error',
+              title: 'Invalid Pincode',
+              text: 'Please enter a valid pincode.',
+            });
+          }
+        } catch (error) {
+          console.error('Error fetching pincode data:', error);
           Swal.fire({
             icon: 'error',
-            title: 'Invalid Pincode',
-            text: 'Please enter a valid pincode.',
+            title: 'Error',
+            text: 'An error occurred while fetching data. Please try again later.',
           });
         }
-      } catch (error) {
-        console.error('Error fetching pincode data:', error);
+      } else {
+        // Reset city and state if pincode is incomplete
+        setCity('');
+        setState('');
       }
     } else {
+      // Clear the pincode and reset city/state if input is invalid
+      setFormValues({ ...formValues, pinCode: '' });
       setCity('');
       setState('');
     }
   };
-
+  
 
 
 
@@ -380,10 +393,10 @@ const ApplyNow = () => {
                 </InputAdornment>
               ),
             }}
-            sx={{
-              backgroundColor: '#f0f4ff',
-              borderRadius: '4px',
-            }}
+            // sx={{
+            //   backgroundColor: '#f0f4ff',
+            //   borderRadius: '4px',
+            // }}
           />
         </Grid>
         <Grid
@@ -438,10 +451,10 @@ const ApplyNow = () => {
                   </InputAdornment>
                 ),
               }}
-              sx={{
-                backgroundColor: '#f0f4ff',
-                borderRadius: '4px',
-              }}
+              // sx={{
+              //   backgroundColor: '#f0f4ff',
+              //   borderRadius: '4px',
+              // }}
             >
               
             </TextField>
