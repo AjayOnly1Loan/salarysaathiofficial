@@ -119,8 +119,16 @@ const ApplyNow = () => {
       }));
       return; // Prevent updating the value if invalid
     }
-  }
   
+    if (age > 60) {
+      setFormErrors((prevErrors) => ({
+        ...prevErrors,
+        dob: 'You cannot be older than 60 years.',
+      }));
+      return; // Prevent updating the value if invalid
+    }
+  }
+    
 
     console.log("the pan value is ",value)
     // Update form values and reset errors for the specific field
