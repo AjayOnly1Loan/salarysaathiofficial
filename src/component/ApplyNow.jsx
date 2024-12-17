@@ -397,7 +397,7 @@ const ApplyNow = () => {
             InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
-                  <PinDrop sx={{ color: '#1976d2' }} />
+                  <PinDrop sx={{ color: 'rgba(0, 0, 0, 0.6)' }} />
                 </InputAdornment>
               ),
             }}
@@ -455,7 +455,7 @@ const ApplyNow = () => {
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
-                    <LocationOn sx={{ color: '#1976d2' }} />
+                    <LocationOn sx={{ color: 'rgba(0, 0, 0, 0.6)' }} />
                   </InputAdornment>
                 ),
               }}
