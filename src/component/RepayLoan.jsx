@@ -56,9 +56,8 @@ const RepayLoan = () => {
           whiteSpace: 'nowrap', 
           width: '100%', 
           backgroundColor: '#f9f9f9', 
-          border:'none',
+          border: 'none !important',
           py: 1, 
-          boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)' 
         }}
       >
         <Typography
@@ -67,12 +66,12 @@ const RepayLoan = () => {
             display: 'inline-block',
             animation: 'scroll-text 20s linear infinite',
             fontSize: { xs: '14px', sm: '18px' },
-            color: '#B22222',
+            color: 'red',
             fontWeight: 'bold',
             textAlign: 'center',
           }}
         >
-          "Beware of fraud! Always use our secure Repayment Website Link for loan payments. SalarySaathi is not responsible for payments made to other accounts."
+          "Beware of fraud! Always use our secure Repayment Website Link for loan payments. Fundswalle is not responsible for payments made to other accounts."
         </Typography>
 
         {/* Keyframe animation using Material-UI */}
@@ -89,6 +88,7 @@ const RepayLoan = () => {
           `}
         </style>
       </Box>
+
 
 
 
