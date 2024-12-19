@@ -71,7 +71,7 @@ const RepayLoan = () => {
             textAlign: 'center',
           }}
         >
-          "Beware of fraud! Always use our secure Repayment Website Link for loan payments. Fundswalle is not responsible for payments made to other accounts."
+          "Beware of fraud! Always use our secure Repayment Website Link for loan payments. Salarysaathi is not responsible for payments made to other accounts."
         </Typography>
 
         {/* Keyframe animation using Material-UI */}
