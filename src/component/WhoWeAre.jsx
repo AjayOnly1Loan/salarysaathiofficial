@@ -4,7 +4,7 @@ import backgroundImage from '../assets/image/Frame 46.png'; // Adjust the path a
 
 const WhoWeAre = () => {
   const content = `Welcome to SalarySaathi – where we redefine the process of lending! 
-  We’re those passionate innovators who are committed to making borrowing quicker and easier. 
+  We’re those passionate innovators who are committed to making borrowings quicker and easier. 
   With us, you can get a loan disbursed in your account in just 5 minutes.
 
 `;

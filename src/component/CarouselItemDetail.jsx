@@ -36,7 +36,7 @@ const cardDetails = [
   {
     imgUrl: image5,
     title: "Instant Fund Transfer",
-    description: `No waiting, no standing in lines waiting for your turn - just quick financial relief!`,
+    description: `No standing in lines waiting for your turn - just quick financial relief!`,
   },
   {
     imgUrl: image6,
