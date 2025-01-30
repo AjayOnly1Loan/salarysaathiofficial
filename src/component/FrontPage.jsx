@@ -47,20 +47,18 @@ const FrontPage = () => {
       {" "}
       {/* Centered Content */}
       <Box
-        sx={{
-          paddingBottom: 85,
-
-          // mt: -75,
-
-          // [theme.breakpoints.down("sm")]: { mt: -60 },
-
-          // "@media (width: 414px) and (height: 896px)": {
-          //   mt: -70, // Specific height for iPhone XR
-          // },
-          // "@media (width: 1024px) and (height: 1366px)": {
-          //   mt: -110, // Adjusted height for 1024x1336 screens
-          // },
-        }}
+        sx={
+          {
+            // mt: -75,
+            // [theme.breakpoints.down("sm")]: { mt: -60 },
+            // "@media (width: 414px) and (height: 896px)": {
+            //   mt: -70, // Specific height for iPhone XR
+            // },
+            // "@media (width: 1024px) and (height: 1366px)": {
+            //   mt: -110, // Adjusted height for 1024x1336 screens
+            // },
+          }
+        }
       >
         <Typography
           variant="h2"
