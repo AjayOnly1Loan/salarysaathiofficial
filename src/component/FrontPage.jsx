@@ -17,11 +17,11 @@ const FrontPage = () => {
         backgroundPosition: "center",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
+        // justifyContent: "center",
+        // alignItems: "center",
         color: "white",
         textAlign: "center",
-        padding: theme.spacing(2),
+        // padding: theme.spacing(2),
         height: { xs: "100vh", md: "110vh", sm: "125vh", lg: "140vh" }, // Same height across all screens
         "@media (width: 414px) and (height: 896px)": {
           height: "85vh", // Specific height for iPhone XR
