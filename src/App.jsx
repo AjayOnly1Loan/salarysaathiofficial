@@ -15,6 +15,8 @@ import RepayLoan from './component/RepayLoan';
 import Footer from './component/Footer';
 import FAQs from './component/FAQs';
 import LoanCalculator from './component/LoanCalculator';
+import WhatsAppPopup from "./component/WhatsAppPopup";
+
 // import Navbar from "./navbar/NavBar"
 
 function App() {
@@ -38,6 +40,7 @@ function App() {
 
       </Routes>
       <Footer />
+      <WhatsAppPopup />
     </Router>
 
   );
