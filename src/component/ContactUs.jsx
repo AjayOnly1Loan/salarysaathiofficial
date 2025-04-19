@@ -107,6 +107,7 @@ const ContactUs = () => {
                   },
                 ],
               },
+              // add grievance officer number
               {
                 title: "Grievance Redressal Officer",
                 bgColor: "#A77AE2",
