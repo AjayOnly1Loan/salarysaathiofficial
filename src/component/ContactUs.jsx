@@ -113,8 +113,8 @@ const ContactUs = () => {
                 bgColor: "#A77AE2",
                 icon: EmailIcon,
                 content: [
-                  { text: "AMAN KUMAR", iconClass: "fas fa-user-circle" },
-                  { text: "+91 9999999341", iconClass: "fas fa-phone-alt" },
+                  { text: "Mr. Sourabh Chandna", iconClass: "fas fa-user-circle" },
+                  { text: "+91 9643311652", iconClass: "fas fa-phone-alt" },
                   {
                     text: "Grievance@richmanfincap.in",
                     iconClass: "fas fa-envelope",
@@ -126,8 +126,8 @@ const ContactUs = () => {
                 bgColor: "#e01dd7",
                 icon: OfficerIcon,
                 content: [
-                  { text: "LUCKY MUDGAL", iconClass: "fas fa-user-circle" },
-                  { text: "+91-9355926174", iconClass: "fas fa-phone-alt" },
+                  { text: "Ms. Poonam Diwakar", iconClass: "fas fa-user-circle" },
+                  { text: "+91-9599610432", iconClass: "fas fa-phone-alt" },
                   {
                     text: "info@salarysaathi.com",
                     iconClass: "fas fa-envelope",

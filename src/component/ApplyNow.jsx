@@ -28,8 +28,8 @@ import backgroundImg from "../assets/image/Frame 446.png";
 import applyImage from "../assets/image/apply now qua final.webp";
 const ApplyNow = () => {
   const [termsAccepted, setTermsAccepted] = useState(false);
-  const [state, setState] = useState("");
-  const [city, setCity] = useState("");
+  // const [state, setState] = useState("");
+  // const [city, setCity] = useState("");
   const [formValues, setFormValues] = useState({
     fName: "",
     lName: " ",
@@ -42,6 +42,8 @@ const ApplyNow = () => {
     personalEmail: "",
     officeEmail: "",
     pinCode: "",
+    state: "",
+    city: "",
     salary: "",
     loanAmount: "",
   });
@@ -169,62 +171,62 @@ const ApplyNow = () => {
     if (!pinCodeValid) errors.pinCode = "pinCode must be 6 digits";
     if (!termsAccepted)
       errors.termsAccepted = "You must accept the Terms & Conditions";
-    if (!state) errors.state = "Please select a state";
-    if (!city) errors.city = "Please select a city";
+    if (!formValues.state) errors.state = "Please select a state";
+    if (!formValues.city) errors.city = "Please select a city";
 
     return errors;
   };
 
-  const handlePincodeChange = async (e) => {
-    const value = e.target.value;
+  // const handlePincodeChange = async (e) => {
+  //   const value = e.target.value;
 
-    // Only allow numeric input and ensure the pincode has no more than 6 digits
-    if (/^\d{0,6}$/.test(value)) {
-      setFormValues({ ...formValues, pinCode: value });
+  //   // Only allow numeric input and ensure the pincode has no more than 6 digits
+  //   if (/^\d{0,6}$/.test(value)) {
+  //     setFormValues({ ...formValues, pinCode: value });
 
-      // If the pincode has exactly 6 digits, fetch city and state
-      if (value.length === 6) {
-        try {
-          const response = await fetch(
-            `https://api.postalpincode.in/pincode/${value}`
-          );
-          const data = await response.json();
+  //     // If the pincode has exactly 6 digits, fetch city and state
+  //     if (value.length === 6) {
+  //       try {
+  //         const response = await fetch(
+  //           `https://api.postalpincode.in/pincode/${value}`
+  //         );
+  //         const data = await response.json();
 
-          if (data[0].Status === "Success") {
-            const { Block, State } = data[0].PostOffice[0];
-            setCity(Block);
-            setState(State);
-            console.log("City:", Block, "State:", State);
-          } else {
-            // Handle invalid pin code case
-            setCity("");
-            setState("");
-            Swal.fire({
-              icon: "error",
-              title: "Invalid Pincode",
-              text: "Please enter a valid pincode.",
-            });
-          }
-        } catch (error) {
-          console.error("Error fetching pincode data:", error);
-          Swal.fire({
-            icon: "error",
-            title: "Error",
-            text: "An error occurred while fetching data. Please try again later.",
-          });
-        }
-      } else {
-        // Reset city and state if pincode is incomplete
-        setCity("");
-        setState("");
-      }
-    } else {
-      // Clear the pincode and reset city/state if input is invalid
-      setFormValues({ ...formValues, pinCode: "" });
-      setCity("");
-      setState("");
-    }
-  };
+  //         if (data[0].Status === "Success") {
+  //           const { Block, State } = data[0].PostOffice[0];
+  //           setCity(Block);
+  //           setState(State);
+  //           console.log("City:", Block, "State:", State);
+  //         } else {
+  //           // Handle invalid pin code case
+  //           setCity("");
+  //           setState("");
+  //           Swal.fire({
+  //             icon: "error",
+  //             title: "Invalid Pincode",
+  //             text: "Please enter a valid pincode.",
+  //           });
+  //         }
+  //       } catch (error) {
+  //         console.error("Error fetching pincode data:", error);
+  //         Swal.fire({
+  //           icon: "error",
+  //           title: "Error",
+  //           text: "An error occurred while fetching data. Please try again later.",
+  //         });
+  //       }
+  //     } else {
+  //       // Reset city and state if pincode is incomplete
+  //       setCity("");
+  //       setState("");
+  //     }
+  //   } else {
+  //     // Clear the pincode and reset city/state if input is invalid
+  //     setFormValues({ ...formValues, pinCode: "" });
+  //     setCity("");
+  //     setState("");
+  //   }
+  // };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -247,8 +249,8 @@ const ApplyNow = () => {
         },
         body: JSON.stringify({
           ...formValues,
-          state: state,
-          city: city,
+          // state: state,
+          // city: city,
           termsAccepted,
           source: "website",
         }),
@@ -277,12 +279,14 @@ const ApplyNow = () => {
         personalEmail: "",
         officeEmail: "",
         pinCode: "",
+        state: "",
+        city: "",
         salary: "",
         loanAmount: "",
       });
       setTermsAccepted(false);
-      setState("");
-      setCity("");
+      // setState("");
+      // setCity("");
       setFormErrors({}); // Reset form errors
     } catch (error) {
       Swal.fire({
@@ -420,7 +424,7 @@ const ApplyNow = () => {
                     name="pinCode"
                     label="Pincode"
                     value={formValues.pinCode}
-                    onChange={handlePincodeChange}
+                    onChange={handleInputChange}
                     error={!!formErrors.pinCode}
                     helperText={formErrors.pinCode || ""}
                     InputProps={{
@@ -436,13 +440,14 @@ const ApplyNow = () => {
                     // }}
                   />
                 </Grid>
-                <Grid item xs={12} md={6} sx={{}}>
+                <Grid item xs={12} md={6}>
                   <TextField
                     fullWidth
                     required
                     name="city"
                     label="City"
-                    value={city}
+                    value={formValues.city}
+                    onChange={handleInputChange}
                     error={!!formErrors.city}
                     helperText={formErrors.city || ""}
                     InputProps={{
@@ -452,30 +457,27 @@ const ApplyNow = () => {
                         </InputAdornment>
                       ),
                     }}
-                  ></TextField>
+                  />
                 </Grid>
 
-                <Grid item xs={12} md={6} sx={{}}>
+                <Grid item xs={12} md={6}>
                   <TextField
                     fullWidth
                     required
                     name="state"
                     label="State"
-                    value={state}
+                    value={formValues.state}
+                    onChange={handleInputChange}
                     error={!!formErrors.state}
                     helperText={formErrors.state || ""}
                     InputProps={{
                       startAdornment: (
                         <InputAdornment position="start">
-                          <LocationOn sx={{ color: "rgba(0, 0, 0, 0.6)" }} />
+                          <LocationOn />
                         </InputAdornment>
                       ),
                     }}
-                    // sx={{
-                    //   backgroundColor: '#f0f4ff',
-                    //   borderRadius: '4px',
-                    // }}
-                  ></TextField>
+                  />
                 </Grid>
 
                 <Grid item xs={12}>
