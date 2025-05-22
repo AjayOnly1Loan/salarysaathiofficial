@@ -146,7 +146,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link href="contact-us" sx={{ ...linkStyle, alignItems: 'center' }}>
-                    <Phone sx={{ mr: 1 }} />  +91 9999999341
+                    <Phone sx={{ mr: 1 }} /> +91 9643311652
                   </Link>
                 </li>
                 <li>

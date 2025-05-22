@@ -100,7 +100,7 @@ const ContactUs = () => {
                 bgColor: "#007BBA",
                 icon: ContactIcon,
                 content: [
-                  { text: "+91 9999999341", iconClass: "fas fa-phone-alt" },
+                  { text: "+91 9643311652", iconClass: "fas fa-phone-alt" },
                   {
                     text: "info@salarysaathi.com",
                     iconClass: "fas fa-envelope",
